@@ -18,6 +18,6 @@ socket.on('add-message', (message) => {
 });
 });
 
-http.listen(5000, () => {
-    console.log('started on port 5000');
+http.listen(8080, () => {
+    console.log('started on port 8080');
 });
